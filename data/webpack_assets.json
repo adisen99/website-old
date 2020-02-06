@@ -1,6 +1,6 @@
 {
   "app": {
-    "js": "/dist/js/custom1.js",
-    "css": "/dist/css/custom1.css"
+    "js": "dist/js/custom1.js",
+    "css": "dist/css/custom1.css"
   }
 }
