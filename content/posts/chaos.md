@@ -6,7 +6,7 @@ date: 2020-02-02T23:26:37+05:30
 draft: false
 show_reading_time: true
 ---
-{{< figure src="/images/chaos2.png" title="Lorenz Attractors" >}}
+{{< figure src="/images/chaos2.jpg" title="Lorenz Attractors" >}}
 
 ### **Chaos**
 

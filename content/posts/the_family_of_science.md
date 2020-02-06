@@ -6,7 +6,7 @@ date: 2020-02-02T23:49:38+05:30
 draft: false
 show_reading_time: true
 ---
-{{< figure src="/images/family_of_science2.jpeg" title="The Bohr Family" >}}
+{{< figure src="/images/family_of_science2.jpg" title="The Bohr Family" >}}
 
 Niels Bohr was a great practitioner of the Scientific method and inspired many physicists throughout his career such as Werner Heisenberg, Lev Landau, Wolfgang Pauli, Paul Dirac, just to name a few and undoubtedly continues to do so.
 
