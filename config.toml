@@ -1,0 +1,40 @@
+title = "Food for Thought"
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "ananke"
+publishDir = "docs"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 1000 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+disqusShortname = "adisen99"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "<p> Explore the Beauty of Scientific Thought and Wisdom. </p>"
+  facebook = ""
+  twitter = "https://twitter.com/adi_sen99"
+  instagram = "https://www.instagram.com/adi_sen99/"
+  youtube = ""
+  github = "https://github.com/adisen99"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/aditya-sengupta-10/"
+  researchgate = "https://www.researchgate.net/profile/Aditya_Sengupta5"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/jupiter_chaos.jpg"
+  recent_posts_number = 3
+  commentoEnable = true
+  custom_css = ["dist/css/custom1.css"]
+  custom_js = ["dist/css/custom.js"]
