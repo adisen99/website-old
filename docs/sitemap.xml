@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/</loc>
+    <lastmod>2020-02-02T23:49:38+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/posts/</loc>
+    <lastmod>2020-02-02T23:49:38+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/posts/the_family_of_science/</loc>
+    <lastmod>2020-02-02T23:49:38+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/posts/chaos/</loc>
+    <lastmod>2020-02-02T23:26:37+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/posts/the_infinite_universe/</loc>
+    <lastmod>2020-02-02T20:19:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/posts/great_minds/</loc>
+    <lastmod>2020-02-01T17:39:57+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://adisen99.github.io/food-for-thought/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
