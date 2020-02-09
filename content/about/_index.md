@@ -4,6 +4,7 @@ description: "Get to learn more about me. :)"
 featured_image: 'images/Physics.jpg'
 draft: false
 ---
+
 {{< figure src="/images/adisen.jpg" title="**Aditya Sengupta**" >}}
 
 I am a University student in India currently pursuing a Bachelor's in Physics at Amity University, Noida.   

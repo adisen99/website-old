@@ -10,7 +10,7 @@ SectionPagesMenu = "main"
 Paginate = 10 
 googleAnalytics = ""
 enableRobotsTXT = true
-disqusShortname = "adisen99"
+disqusShortname = "food-for-thought"
 
 [sitemap]
   changefreq = "monthly"
