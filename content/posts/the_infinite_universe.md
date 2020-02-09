@@ -11,3 +11,6 @@ show_reading_time: true
 >I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed. We are capable of reaching a full understanding of our universe and then realize that all we had to do was to look within ourselves.
 
 **Written by _Aditya Sengupta_**
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>

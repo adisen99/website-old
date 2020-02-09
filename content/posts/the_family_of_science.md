@@ -21,3 +21,6 @@ But not all members of the Bohr family are scientists. Science is truly fostered
 #### **This little picture above represents a much bigger picture of the evolution of the Scientific Method over the last 2 centuries and the success of the method that helped us reach the Moon and beyond and helped us uncover the secrets of the quantum nature of reality.**
 
 **Written by _Aditya Sengupta_**
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>

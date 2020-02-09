@@ -38,3 +38,6 @@ Credit- Veritasium
 {{< youtube ovJcsL7vyrk>}}
 
 **Written by _Aditya Sengupta_**
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
