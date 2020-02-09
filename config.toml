@@ -36,5 +36,5 @@ disqusShortname = "adisen99"
   featured_image = "/images/jupiter_chaos.jpg"
   recent_posts_number = 3
   commentoEnable = true
-  custom_css = ["css/custom1.css"]
-  custom_js = ["js/custom1.js"]
+  custom_css = ["/css/custom1.css"]
+  custom_js = ["/js/custom1.js"]
