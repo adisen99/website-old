@@ -1,5 +1,5 @@
 title = "Food for Thought"
-baseURL = "https://adisen99.github.io/food-for-thought/"
+baseURL = "https://adisen99.github.io/food-for-thought"
 languageCode = "en-us"
 theme = "ananke"
 publishDir = "docs"
@@ -19,7 +19,7 @@ disqusShortname = "food-for-thought"
 
 [params]
   favicon = ""
-  description = "<p> Explore the Beauty of Scientific Thought and Wisdom. </p>"
+  description = "Explore the Beauty of Scientific Thought and Wisdom."
   facebook = ""
   twitter = "https://twitter.com/adi_sen99"
   instagram = "https://www.instagram.com/adi_sen99/"
