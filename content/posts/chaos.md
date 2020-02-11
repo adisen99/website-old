@@ -7,7 +7,7 @@ draft: false
 show_reading_time: true
 ---
 
-{{< figure src="/images/chaos2.jpg" title="Lorenz Attractors" >}}
+{{< figure src="/food-for-thought/images/chaos2.jpg" title="Lorenz Attractors" >}}
 
 ### **Chaos**
 
