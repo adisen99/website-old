@@ -8,9 +8,9 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 
-googleAnalytics = ""
 enableRobotsTXT = true
 disqusShortname = "food-for-thought"
+googleAnalytics = "UA-158627255-1"
 
 [sitemap]
   changefreq = "monthly"
