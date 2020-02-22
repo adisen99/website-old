@@ -10,7 +10,6 @@ SectionPagesMenu = "main"
 Paginate = 10 
 enableRobotsTXT = true
 disqusShortname = "food-for-thought"
-googleAnalytics = "UA-158627255-1"
 
 [sitemap]
   changefreq = "monthly"
@@ -38,3 +37,4 @@ googleAnalytics = "UA-158627255-1"
   commentoEnable = true
   custom_css = ["/css/custom1.css"]
   custom_js = ["/js/custom1.js"]
+  googleAnalytics = "UA-158627255-1"
