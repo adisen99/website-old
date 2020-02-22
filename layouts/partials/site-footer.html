@@ -4,5 +4,6 @@
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
   </a>
     <div>{{ partial "social-follow.html" . }}</div>
+    <div>{{ template "_internal/google_analytics_async.html" . }}</div>
   </div>
 </footer>
