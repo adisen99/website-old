@@ -18,7 +18,7 @@ googleAnalytics = ""
   filename = "sitemap.xml"
 
 [params]
-  favicon = "/images/favicon.png"
+  favicon = "images/favicon.png"
   description = "Explore the Beauty of Scientific Thought and Wisdom."
   facebook = ""
   twitter = "https://twitter.com/adi_sen99"
