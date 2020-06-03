@@ -35,6 +35,6 @@ googleAnalytics = "UA-158627255-1"
   background_color_class = "bg-black"
   featured_image = "/images/Physics.jpg"
   recent_posts_number = 3
-  commentoEnable = true
+  commentoEnable = false
   custom_css = ["/css/custom1.css"]
   custom_js = ["/js/custom1.js"]
