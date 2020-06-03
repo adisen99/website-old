@@ -10,7 +10,7 @@ SectionPagesMenu = "main"
 Paginate = 10 
 enableRobotsTXT = true
 disqusShortname = "food-for-thought"
-googleAnalytics = ""
+googleAnalytics = "UA-158627255-1"
 
 [sitemap]
   changefreq = "monthly"
@@ -33,7 +33,7 @@ googleAnalytics = ""
   stackoverflow = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/jupiter_chaos.jpg"
+  featured_image = "/images/Physics.jpg"
   recent_posts_number = 3
   commentoEnable = true
   custom_css = ["/css/custom1.css"]
