@@ -1,4 +1,4 @@
-baseURL                          = "http://example.com/"   # Your domain name. Must end with "/"
+baseURL                          = "https://adisen99.github.io/food4thought/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 disableLanguages = ["de", "es"]
