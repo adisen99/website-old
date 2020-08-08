@@ -1,5 +1,5 @@
 title = "Food for Thought"
-baseURL = "https://adisen99.github.io/food-for-thought/"
+baseURL = "https://adisen99.github.io/food4thought/"
 languageCode = "en-us"
 theme = "ananke"
 publishDir = "docs"
@@ -9,7 +9,7 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 
 enableRobotsTXT = true
-disqusShortname = "food-for-thought"
+disqusShortname = "food-for-thought-3"
 googleAnalytics = "UA-158627255-1"
 
 [sitemap]
