@@ -5,7 +5,7 @@ featured_image: 'images/Physics.jpg'
 draft: false
 ---
 
-{{< figure src="/food-for-thought/images/adisen.jpg" title="**Aditya Sengupta**" >}}
+{{< figure src="/food4thought/images/adisen.jpg" title="**Aditya Sengupta**" >}}
 
 I am a University student in India currently pursuing a Bachelor's in Physics at Amity University, Noida.   
 I am a football and basketball enthusiast and love watching sports. I love playing chess and listening to classical instrumental music. I am a dedicated and hardworking student and hope to be the best I can be at my field of Physics and hopefully contribute to helping make the world a better place.  
