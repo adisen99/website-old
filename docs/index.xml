@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food4Thought</title>
+    <link>http://example.com/</link>
+    <description>Recent content on Food4Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Aug 2020 02:15:23 +0530</lastBuildDate>
+    
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Numerical Analysis</title>
+      <link>http://example.com/projects/numerical_methods/</link>
+      <pubDate>Sun, 09 Aug 2020 02:15:23 +0530</pubDate>
+      
+      <guid>http://example.com/projects/numerical_methods/</guid>
+      <description>This Project will be updated soon.</description>
+    </item>
+    
+    <item>
+      <title>Chaos</title>
+      <link>http://example.com/blog/chaos/</link>
+      <pubDate>Sun, 09 Aug 2020 01:49:52 +0530</pubDate>
+      
+      <guid>http://example.com/blog/chaos/</guid>
+      <description>Lorenz Attractors   Chaos And then people say physics is not poetic and beautiful.
+At first glance, this picture looks like a work of art( well technically it is art because it’s a pictorial representation) but this is a graphical representation of a so-called Lorenz system of ordinary differential equations studied by E. Lorenz, the first person ever to visually see the solution of a so-called 3 -body problem as seen in this picture.</description>
+    </item>
+    
+    <item>
+      <title>The Family of Science</title>
+      <link>http://example.com/blog/the_family_of_science/</link>
+      <pubDate>Sun, 09 Aug 2020 01:49:45 +0530</pubDate>
+      
+      <guid>http://example.com/blog/the_family_of_science/</guid>
+      <description>The Bohr Family   Niels Bohr was a great practitioner of the Scientific method and inspired many physicists throughout his career such as Werner Heisenberg, Lev Landau, Wolfgang Pauli, Paul Dirac, just to name a few and undoubtedly continues to do so.
+But his motivations and influential contributions are resonated in his own family as well. This image that I came across a few days ago, tugged at my conscience and made me realize something truly extraordinary.</description>
+    </item>
+    
+    <item>
+      <title>The Infinite Universe</title>
+      <link>http://example.com/blog/the_infinite_universe/</link>
+      <pubDate>Sun, 09 Aug 2020 01:49:19 +0530</pubDate>
+      
+      <guid>http://example.com/blog/the_infinite_universe/</guid>
+      <description>   I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed. We are capable of reaching a full understanding of our universe and then realize that all we had to do was to look within ourselves.
+ </description>
+    </item>
+    
+    <item>
+      <title>Great Minds</title>
+      <link>http://example.com/blog/great_minds/</link>
+      <pubDate>Sun, 09 Aug 2020 01:38:30 +0530</pubDate>
+      
+      <guid>http://example.com/blog/great_minds/</guid>
+      <description>Fifth conference participants, 1927. Institut International de Physique Solvay in Leopold Park
+The great minds of the nineteenth-century meeting for the Nobel Committee meeting. This picture was taken by Benjamin Couprie at the Institute International de Physique Solvay, Leopold Park, Brussels Belgium.
+ Back row, left to right: Auguste Piccard, Emile Herniot, Paul Ehrenfest, Edouard Herzen, Theophile de Donder, Erwin Schrodinger, Jules-Emile Verschaffelt, Wolfgang Pauli, Werner Heisenberg, Ralph Howard Fowler, Leon Brillouin.</description>
+    </item>
+    
+    <item>
+      <title>Website Theme Features</title>
+      <link>http://example.com/blog/configuration/</link>
+      <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
+      
+      <guid>http://example.com/blog/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Introduction allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.
+Below is an example configuration for Highlight. See Highlight in the Hugo docs for more.
+[markup] [markup.highlight] codeFences = true guessSyntax = false hl_Lines = &amp;#34;&amp;#34; lineNoStart = 1 lineNos = false lineNumbersInTable = true noClasses = true # For styles, see https://xyproto.</description>
+    </item>
+    
+  </channel>
+</rss>
