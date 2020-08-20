@@ -2,6 +2,7 @@ title = "Food 4 Thought"
 baseURL = "https://adisen99.github.io/food4thought"
 languageCode = "en-us"
 theme = "ananke"
+publishDir = "docs"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"

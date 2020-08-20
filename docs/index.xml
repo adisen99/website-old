@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food 4 Thought</title>
+    <link>https://adisen99.github.io/food4thought/</link>
+    <description>Recent content on Food 4 Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Apr 2019 11:15:58 -0400</lastBuildDate>
+    
+	<atom:link href="https://adisen99.github.io/food4thought/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://adisen99.github.io/food4thought/post/configuration/</link>
+      <pubDate>Sat, 13 Apr 2019 11:15:58 -0400</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/post/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Ananke theme allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.
+Below is an example configuration for Highlight. See Highlight in the Hugo docs for more.
+[markup] [markup.highlight] codeFences = true guessSyntax = false hl_Lines = &amp;#34;&amp;#34; lineNoStart = 1 lineNos = false lineNumbersInTable = true noClasses = true # For styles, see https://xyproto.</description>
+    </item>
+    
+    <item>
+      <title>Family of Science</title>
+      <link>https://adisen99.github.io/food4thought/post/family_of_science/</link>
+      <pubDate>Fri, 12 Apr 2019 11:14:48 -0400</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/post/family_of_science/</guid>
+      <description>The Bohr Family   Niels Bohr was a great practitioner of the Scientific method and inspired many physicists throughout his career such as Werner Heisenberg, Lev Landau, Wolfgang Pauli, Paul Dirac, just to name a few and undoubtedly continues to do so.
+But his motivations and influential contributions are resonated in his own family as well. This image that I came across a few days ago, tugged at my conscience and made me realize something truly extraordinary.</description>
+    </item>
+    
+    <item>
+      <title>Great Minds</title>
+      <link>https://adisen99.github.io/food4thought/post/great_minds/</link>
+      <pubDate>Thu, 11 Apr 2019 11:13:32 -0400</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/post/great_minds/</guid>
+      <description>Fifth conference participants, 1927. Institut International de Physique Solvay in Leopold Park
+The great minds of the nineteenth-century meeting for the Nobel Committee meeting. This picture was taken by Benjamin Couprie at the Institute International de Physique Solvay, Leopold Park, Brussels Belgium.
+ Back row, left to right: Auguste Piccard, Emile Herniot, Paul Ehrenfest, Edouard Herzen, Theophile de Donder, Erwin Schrodinger, Jules-Emile Verschaffelt, Wolfgang Pauli, Werner Heisenberg, Ralph Howard Fowler, Leon Brillouin.</description>
+    </item>
+    
+    <item>
+      <title>The Infinite Universe</title>
+      <link>https://adisen99.github.io/food4thought/post/infinite_universe/</link>
+      <pubDate>Wed, 10 Apr 2019 11:00:59 -0400</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/post/infinite_universe/</guid>
+      <description>   I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed. We are capable of reaching a full understanding of our universe and then realize that all we had to do was to look within ourselves.
+ </description>
+    </item>
+    
+    <item>
+      <title>Chaos</title>
+      <link>https://adisen99.github.io/food4thought/post/chaos/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/post/chaos/</guid>
+      <description>Lorenz Attractors   Chaos And then people say physics is not poetic and beautiful.
+At first glance, this picture looks like a work of art( well technically it is art because it’s a pictorial representation) but this is a graphical representation of a so-called Lorenz system of ordinary differential equations studied by E. Lorenz, the first person ever to visually see the solution of a so-called 3 -body problem as seen in this picture.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://adisen99.github.io/food4thought/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/contact/</guid>
+      <description>Please feel free to contact. Share your message below, if you wish to share something or ask something. I would try and get back to you as soon as I can. You can also contact me regarding any suggestions, questions, constructive criticism or collaboration. I am looking forward to hearing from you or perhaps discuss with you the possibilities of some project that we can collaborate on. :)
+Your Name Email Address An email address is required.</description>
+    </item>
+    
+  </channel>
+</rss>
