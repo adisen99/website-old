@@ -37,4 +37,4 @@ enableInlineShortcodes = true
   featured_image = "/images/f4f.jpg"
   recent_posts_number = 3
   body_classes = "helvetica neue bg-near-white"
-  custom_css = ["food4thought/dist/css/custom1.css","food4thought/dist/css/custom2.css"]
+  custom_css = ["dist/css/custom1.css","dist/css/custom2.css"]
