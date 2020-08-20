@@ -6,7 +6,7 @@ tags: ["Physics"]
 title: "Chaos"
 ---
 
-{{< figure src="/images/chaos2.jpg" title="Lorenz Attractors" >}}
+{{< figure src="/food4thought/images/chaos2.jpg" title="Lorenz Attractors" >}}
 
 ### **Chaos**
 

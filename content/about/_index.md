@@ -4,7 +4,7 @@ description: "Lear more about me..."
 featured_image: 'images/jupiter_chaos.jpg'
 
 ---
-{{< figure src="/images/adisen.jpg" title="Aditya Sengupta" >}}
+{{< figure src="/food4thought/images/adisen.jpg" title="Aditya Sengupta" >}}
 
 This is **Food 4 Thought**, the personal blog of Aditya Sengupta {adisen99}.
 
