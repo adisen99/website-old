@@ -1,0 +1,40 @@
+title = "Food 4 Thought"
+baseURL = "https://adisen99.github.io/food4thought"
+languageCode = "en-us"
+theme = "hugo-ananke"
+publishDir = "docs"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = "/images/favicon.ico"
+  site_logo = "/logo/favicon-32x32.png"
+  description = "Blog | Aditya Sengupta"
+  facebook = ""
+  twitter = "https://twitter.com/adi_sen99"
+  instagram = "https://instagram.com/adi_sen99"
+  youtube = ""
+  github = "https://github.com/adisen99"
+  gitlab = "https://gitlab.com/adisen99"
+  linkedin = "https://www.linkedin.com/in/aditya-sengupta-10/"
+  mastodon = "https://mastodon.online/@adisen99"
+  slack = ""
+  researchgate = "https://www.researchgate.net/profile/Aditya_Sengupta5"
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/f4f.jpg"
+  recent_posts_number = 3
+  body_classes = "helvetica neue bg-near-white"
+  custom_css = ["/dist/css/custom1.css","/dist/css/custom2.css"]
