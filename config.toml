@@ -1,5 +1,5 @@
 title = "Food 4 Thought"
-baseURL = "https://adisen99.github.io/food4thought"
+baseURL = "https://adisen99.github.io/food4thought/"
 languageCode = "en-us"
 theme = "hugo-ananke"
 publishDir = "docs"
