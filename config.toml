@@ -7,9 +7,10 @@ publishDir = "docs"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "UA-158627255-1"
 enableRobotsTXT = true
 enableInlineShortcodes = true
+disqusShortname = "food-4-thought"
 
 [sitemap]
   changefreq = "monthly"
