@@ -6,11 +6,7 @@
     <description>Recent content on Food 4 Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Apr 2019 11:15:58 -0400</lastBuildDate>
-    
-	<atom:link href="https://adisen99.github.io/food4thought/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 13 Apr 2019 11:15:58 -0400</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuration</title>
       <link>https://adisen99.github.io/food4thought/post/configuration/</link>
@@ -71,7 +67,7 @@ At first glance, this picture looks like a work of art( well technically it is a
       
       <guid>https://adisen99.github.io/food4thought/contact/</guid>
       <description>Please feel free to contact. Share your message below, if you wish to share something or ask something. I would try and get back to you as soon as I can. You can also contact me regarding any suggestions, questions, constructive criticism or collaboration. I am looking forward to hearing from you or perhaps discuss with you the possibilities of some project that we can collaborate on. :)
-Your Name Email Address An email address is required.</description>
+      </description>
     </item>
     
   </channel>
