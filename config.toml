@@ -1,0 +1,58 @@
+baseURL = "https://adisen99.github.io/food4thought/"
+languageCode = "en-us"
+title = "Food 4 Thought"
+theme = "mediumish"
+summaryLength = 25
+copyright = "Aditya Sengupta - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/favicon_io/favicon-32x32.png"
+  description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Aditya Sengupta"
+  thumbnail = "/images/owl.jpg"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = "/images/owl.jpg"
+  title = "Aditya Sengupta"
+  subtitle = "I'm a unique placeholder. Working here and there!"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!\
+**This textblock is a demonstration of the mdtext-param.**\
+### This is a markdown heading
+'''
+  alertbar = false
+
+[params.social]
+  github = "adisen99"
+  gitlab = "adisen99"
+  linkedin = "aditya-sengupta-10"
+  researchgate = "Aditya_Sengupta5"
+  #xing = "<username>"
+  #medium = "<username>"
+  twitter = "adi_sen99"
+  instagram = "adi_sen99"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
