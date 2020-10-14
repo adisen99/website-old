@@ -17,5 +17,15 @@
       <description>Imprint Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://adisen99.github.io/food4thought/static/about_me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/static/about_me/</guid>
+      <description>This is Food 4 Thought, the personal blog of Aditya Sengupta {adisen99}.
+  I am a Physics Graduate currently awaiting admission to a Masters program in India.</description>
+    </item>
+    
   </channel>
 </rss>

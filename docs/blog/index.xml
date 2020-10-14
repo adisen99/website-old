@@ -7,86 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aditya Sengupta - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:40:14 +0200</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Apr 2019 11:15:58 -0400</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ninth</title>
-      <link>https://adisen99.github.io/food4thought/blog/ninth/</link>
-      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      <title>Configuration</title>
+      <link>https://adisen99.github.io/food4thought/blog/configuration/</link>
+      <pubDate>Sat, 13 Apr 2019 11:15:58 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/ninth/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
+      <guid>https://adisen99.github.io/food4thought/blog/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Ananke theme allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.</description>
     </item>
     
     <item>
-      <title>Eighth</title>
-      <link>https://adisen99.github.io/food4thought/blog/eighth/</link>
-      <pubDate>Sun, 07 Oct 2018 11:40:11 +0200</pubDate>
+      <title>Family of Science</title>
+      <link>https://adisen99.github.io/food4thought/blog/family_of_science/</link>
+      <pubDate>Fri, 12 Apr 2019 11:14:48 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/eighth/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
+      <guid>https://adisen99.github.io/food4thought/blog/family_of_science/</guid>
+      <description>The Bohr Family   Niels Bohr was a great practitioner of the Scientific method and inspired many physicists throughout his career such as Werner Heisenberg, Lev Landau, Wolfgang Pauli, Paul Dirac, just to name a few and undoubtedly continues to do so.</description>
     </item>
     
     <item>
-      <title>Seventh</title>
-      <link>https://adisen99.github.io/food4thought/blog/seventh/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:29 +0200</pubDate>
+      <title>Great Minds</title>
+      <link>https://adisen99.github.io/food4thought/blog/great_minds/</link>
+      <pubDate>Thu, 11 Apr 2019 11:13:32 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/seventh/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
+      <guid>https://adisen99.github.io/food4thought/blog/great_minds/</guid>
+      <description>Fifth conference participants, 1927. Institut International de Physique Solvay in Leopold Park
+The great minds of the nineteenth-century meeting for the Nobel Committee meeting. This picture was taken by Benjamin Couprie at the Institute International de Physique Solvay, Leopold Park, Brussels Belgium.</description>
     </item>
     
     <item>
-      <title>Sixth</title>
-      <link>https://adisen99.github.io/food4thought/blog/sixth/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:25 +0200</pubDate>
+      <title>The Infinite Universe</title>
+      <link>https://adisen99.github.io/food4thought/blog/infinite_universe/</link>
+      <pubDate>Wed, 10 Apr 2019 11:00:59 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/sixth/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
+      <guid>https://adisen99.github.io/food4thought/blog/infinite_universe/</guid>
+      <description>I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed.</description>
     </item>
     
     <item>
-      <title>Fifth</title>
-      <link>https://adisen99.github.io/food4thought/blog/fifth/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:22 +0200</pubDate>
+      <title>Chaos</title>
+      <link>https://adisen99.github.io/food4thought/blog/chaos/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/fifth/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
-    </item>
-    
-    <item>
-      <title>Fourth</title>
-      <link>https://adisen99.github.io/food4thought/blog/fourth/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:16 +0200</pubDate>
-      
-      <guid>https://adisen99.github.io/food4thought/blog/fourth/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
-    </item>
-    
-    <item>
-      <title>Third</title>
-      <link>https://adisen99.github.io/food4thought/blog/third/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:13 +0200</pubDate>
-      
-      <guid>https://adisen99.github.io/food4thought/blog/third/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
-    </item>
-    
-    <item>
-      <title>Second</title>
-      <link>https://adisen99.github.io/food4thought/blog/second/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:10 +0200</pubDate>
-      
-      <guid>https://adisen99.github.io/food4thought/blog/second/</guid>
-      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://adisen99.github.io/food4thought/blog/my-first-post/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
-      
-      <guid>https://adisen99.github.io/food4thought/blog/my-first-post/</guid>
-      <description>This is my first post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
+      <guid>https://adisen99.github.io/food4thought/blog/chaos/</guid>
+      <description>Lorenz Attractors   Chaos And then people say physics is not poetic and beautiful.
+At first glance, this picture looks like a work of art( well technically it is art because it’s a pictorial representation) but this is a graphical representation of a so-called Lorenz system of ordinary differential equations studied by E.</description>
     </item>
     
   </channel>

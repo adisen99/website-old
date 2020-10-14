@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Food 4 Thought</title>
+    <link>https://adisen99.github.io/food4thought/tags/code/</link>
+    <description>Recent content in Code on Food 4 Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Aditya Sengupta - All rights reserved</copyright>
+    <lastBuildDate>Sat, 13 Apr 2019 11:15:58 -0400</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration</title>
+      <link>https://adisen99.github.io/food4thought/blog/configuration/</link>
+      <pubDate>Sat, 13 Apr 2019 11:15:58 -0400</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/blog/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Ananke theme allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.</description>
+    </item>
+    
+  </channel>
+</rss>

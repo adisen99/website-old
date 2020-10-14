@@ -6,8 +6,8 @@ summaryLength = 25
 copyright = "Aditya Sengupta - All rights reserved"
 enableEmoji = true
 publishDir = "docs"
-#disqusShortname = "your-shortname-here"
-#googleAnalytics = "UA-1XXXXXXX1-1"
+disqusShortname = "food-4-thought"
+googleAnalytics = "UA-158627255-1"
 
 [params]
   logo = "/images/favicon_io/favicon-32x32.png"
@@ -28,7 +28,7 @@ Currently trying to get this blog running, still don't know what the blog will b
 **This textblock is a demonstration of the mdtext-param.**\
 ### This is a markdown heading
 '''
-  alertbar = false
+  alertbar = true
 
 [params.social]
   github = "adisen99"
@@ -50,7 +50,7 @@ Currently trying to get this blog running, still don't know what the blog will b
     name = "About Me"
     identifier = "about"
     weight = 200
-    url = "/"
+    url = "/static/about_me"
 [[menu.main]]
     name = "Imprint"
     identifier = "imprint"
