@@ -11,7 +11,7 @@ googleAnalytics = "UA-158627255-1"
 
 [params]
   logo = "/images/favicon_io/favicon-32x32.png"
-  description ="the clean blog!"
+  description ="Physics, linux, programming, the Atmosphere and my life."
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
@@ -22,11 +22,11 @@ googleAnalytics = "UA-158627255-1"
 [params.index]
   picture = "/images/owl.jpg"
   title = "Aditya Sengupta"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  subtitle = "A curious student studying about the Atmosphere."
   mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
+I love linux, programming and chess.\
+**This website contains my personal blog and some of my project descriptions and what I am studying**\
+### Hope you find something useful on the blog.
 '''
   alertbar = true
 
@@ -54,5 +54,5 @@ Currently trying to get this blog running, still don't know what the blog will b
 [[menu.main]]
     name = "Imprint"
     identifier = "imprint"
-    weight = 200
+    weight = 300
     url = "/static/imprint"
