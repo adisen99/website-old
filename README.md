@@ -7,67 +7,59 @@ ________________________________________________________________________________
 
 ### Theme used - 
 
-[Ananke Gohugo Theme](https://github.com/budparr/gohugo-theme-ananke.git) - Courtesy [Bud Parr](https://github.com/budparr)
+[Mediumish Theme](https://github.com/lgaida/mediumish-gohugo-theme) - Courtesy [Lenard Gaida](https://github.com/lgaida)
 _____________________________________________________________________________________________________________________________
 
 ### Modifications made- 
 
-* Added the ResearchGate Link on the Home Page in the Social icons section on top right.
-  
-  * Added the following in the `[params]` section in `config.toml` .
-  
-  ```
-  researchgate = "https://www.researchgate.net/profile/your_profile_name"
-  ```
-  * Added the *researchgate.svg* image in the `layout/partials/svg/` folder
-  
-  * Added the following piece of code in `social-follow.html` file in the `layout/partials/` folder.
-  
-  ```
-  {{ with .Param "researchgate" }}
-  <a href="{{ . }}" target="_blank" class="link-transition researchgate link dib z-999 pt3 pt0-l mr1" title="ResearchGate link" rel="noopener" aria-label="follow on ResearchGate——Opens in a new window">
-  {{ partial "svg/researchgate.svg" (dict "size" $icon_size) }}
-  {{- partial "new-window-icon.html" . -}}
-  </a>
-  {{ end }}
-  ```
-  * Modified the `_social-icons.css` file in the `src/css/` folder
-  
-  ``.facebook, .twitter, .instagram, .youtube, .github, .gitlab, .keybase, .linkedin, .researchgate, .medium, .mastodon,        .slack, .stackoverflow {``
-    `fill: #BABABA;`
-    `}`
-    
-    And
-    
-    ``
-    `.researchgate:hover {
-    `fill: #0cb;
-   ` }
-    ``
-  * Added the name and label in the `stackbit.yaml` file
-  
-  ```
-  models:
-  config:
-    type: data
-    label: Config
-    file: config.toml
-    fields:
-        type: object
-        name: params
-        label: Params
-        description: Site parameters
-        required: true
-        fields:
-           -type: string
-            name: researchgate
-            label: ResearchGate
-  ```
-  
-* Added the support for comments on my site using DISQUS and commentto according to the instructions given on the [Ananke Hugo theme page](https://themes.gohugo.io/gohugo-theme-ananke/).
+Added the linkedin social share code `share.html` in the folder `layouts/partials/single-partials/` -
 
-* Generated a custom css and custom js file in the `static/dist/css` & `static/dist/js` directories.
+```html
+<div class="share sticky-top sticky-top-offset">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
 
-### ~Hope this encourages someone to make their own website using Hugo !! ~
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u={{ .Permalink }}"
+                onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.xing.com/spi/shares/new?url={{ .Permalink }}"
+                onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+                <i class="fab fa-xing"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank"
+                href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}"
+                onclick="window.open(this.href, 'linkedin-share', 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+    </ul>
+
+    {{ if .Params.comments }}
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+            <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    {{ end }}
+</div>
+```
+
+### ~Make your own website using Hugo as well !! ~
 _____________________________________________________________________________________________________________________________
 
