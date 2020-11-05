@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aditya Sengupta - All rights reserved</copyright>
-    <lastBuildDate>Fri, 12 Apr 2019 11:14:48 -0400</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2020 01:11:19 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Setup on Modern Hardware</title>
+      <link>https://adisen99.github.io/food4thought/blog/linux_setup/</link>
+      <pubDate>Thu, 05 Nov 2020 01:11:19 +0530</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/blog/linux_setup/</guid>
+      <description>Introduction Linux is a more than a kernel. For me it is is a symbol of freedom and privacy as far software and specifically operating systems is concerned and also the major advantage of using Linux is that it is a UNIX based operating system and thus it follows the UNIX philosophy and in addition to why it is better than mac OS in my opinion is because of the fact that all modern Linux distributions are GNU/Linux or as it better to call it GNU+Linux distributions (distros for short).</description>
+    </item>
+    
     <item>
       <title>Family of Science</title>
       <link>https://adisen99.github.io/food4thought/blog/family_of_science/</link>

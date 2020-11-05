@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Food 4 Thought</title>
+    <link>https://adisen99.github.io/food4thought/tags/linux/</link>
+    <description>Recent content in Linux on Food 4 Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Aditya Sengupta - All rights reserved</copyright>
+    <lastBuildDate>Thu, 05 Nov 2020 01:11:19 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Setup on Modern Hardware</title>
+      <link>https://adisen99.github.io/food4thought/blog/linux_setup/</link>
+      <pubDate>Thu, 05 Nov 2020 01:11:19 +0530</pubDate>
+      
+      <guid>https://adisen99.github.io/food4thought/blog/linux_setup/</guid>
+      <description>Introduction Linux is a more than a kernel. For me it is is a symbol of freedom and privacy as far software and specifically operating systems is concerned and also the major advantage of using Linux is that it is a UNIX based operating system and thus it follows the UNIX philosophy and in addition to why it is better than mac OS in my opinion is because of the fact that all modern Linux distributions are GNU/Linux or as it better to call it GNU+Linux distributions (distros for short).</description>
+    </item>
+    
+  </channel>
+</rss>

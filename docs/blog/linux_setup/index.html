@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="generator" content="Hugo 0.75.1" />
+	
+	<link rel="icon" href="/food4thought/images/favicon_io/favicon-32x32.png">
+	
+	<title>Linux Setup on Modern Hardware | Food 4 Thought</title>
+	
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Linux Setup on Modern Hardware"/>
+<meta name="twitter:description" content="Introduction Linux is a more than a kernel. For me it is is a symbol of freedom and privacy as far software and specifically operating systems is concerned and also the major advantage of using Linux is that it is a UNIX based operating system and thus it follows the UNIX philosophy and in addition to why it is better than mac OS in my opinion is because of the fact that all modern Linux distributions are GNU/Linux or as it better to call it GNU&#43;Linux distributions (distros for short)."/>
+
+	<meta property="og:title" content="Linux Setup on Modern Hardware" />
+<meta property="og:description" content="Introduction Linux is a more than a kernel. For me it is is a symbol of freedom and privacy as far software and specifically operating systems is concerned and also the major advantage of using Linux is that it is a UNIX based operating system and thus it follows the UNIX philosophy and in addition to why it is better than mac OS in my opinion is because of the fact that all modern Linux distributions are GNU/Linux or as it better to call it GNU&#43;Linux distributions (distros for short)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adisen99.github.io/food4thought/blog/linux_setup/" />
+<meta property="article:published_time" content="2020-11-05T01:11:19+05:30" />
+<meta property="article:modified_time" content="2020-11-05T01:11:19+05:30" />
+
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="/food4thought/css/medium.css" rel="stylesheet">
+	<link href="/food4thought/css/additional.css" rel="stylesheet">
+
+	
+	
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        
+        <a class="navbar-brand" href="https://adisen99.github.io/food4thought//">
+
+            
+            <img src="/food4thought/images/favicon_io/favicon-32x32.png" alt="logo">
+            
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            
+            <ul class="navbar-nav ml-auto">
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/food4thought/blog">Blog</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/food4thought/static/about_me">About Me</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/food4thought/static/imprint">Imprint</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+        <div class="site-content">   
+            <div class="container">
+<div class="mainheading">
+    <h1 class="sitetitle">Food 4 Thought</h1>
+    <p class="lead">
+         Physics, linux, programming, the Atmosphere and my life.
+    </p>
+</div><div class="main-content">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Linux%20Setup%20on%20Modern%20Hardware&url=https%3a%2f%2fadisen99.github.io%2ffood4thought%2fblog%2flinux_setup%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fadisen99.github.io%2ffood4thought%2fblog%2flinux_setup%2f"
+                onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fadisen99.github.io%2ffood4thought%2fblog%2flinux_setup%2f"
+                onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+                <i class="fab fa-xing"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank"
+                href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fadisen99.github.io%2ffood4thought%2fblog%2flinux_setup%2f&title=Linux%20Setup%20on%20Modern%20Hardware"
+                onclick="window.open(this.href, 'linkedin-share', 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+    </ul>
+
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+            <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+</div>
+                                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                        
+                        
+                        
+                        <div class="row post-top-meta">
+                            <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+                                <img class="author-thumb" src="/food4thought/images/owl.jpg" alt="Aditya Sengupta">
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
+                                <a target="_blank" class="link-dark">Aditya Sengupta</a><br>
+                                <span class="author-description">
+                                    Creator of this blog.<br>
+                                    <i class="far fa-star"></i>
+                                    Nov 5, 2020
+                                    <i class="far fa-clock clock"></i>
+                                    6 min read
+                                </span>					
+                            </div>
+                        </div>			
+                        	
+                        
+                                                
+                        
+                        <h1 class="posttitle">Linux Setup on Modern Hardware</h1> 
+                    </div>
+
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="article-post">
+                        <figure>
+    <img src="/food4thought/images/blog/desktop.png"
+         alt="Linux Setup"/> 
+</figure>
+
+<h2 id="introduction">Introduction</h2>
+<p>Linux is a more than a kernel. For me it is is a symbol of freedom and privacy as far software and specifically operating systems is concerned and also the major advantage of using Linux is that it is a UNIX based operating system and thus it follows the UNIX philosophy and in addition to why it is better than mac OS in my opinion is because of the fact that all modern Linux distributions are GNU/Linux or as it better to call it GNU+Linux distributions (distros for short). Hence all modern Linux distros come with the added benefit of GNU programs and GNU compilers out of the box.</p>
+<p>But, modern hardware manufacturers make installing Linux on modern hardware extremely difficult and often an impossible task. A large reason  for this blame goes to Microsoft, as most OEMs are required to ship Windows 10 as the default OS and thus consumers are stuck with the it and stick with a rather poor experience of using an OS that is not well optimised and extremely heavy in system resources.</p>
+<p>Recently I changed my personal laptop and bought a new modern device with all the bells and whistles of a new 10th generation processor and fast nvme SSD storage, and I was also faced with the same dilemma of whether to stick to Windows 10 (to protect my warranty) and grind at using the abominable compromise that is Windows subsystem for Linux (WSL) or to shift to complete clean install of my preferred Linux distro of choice i.e. Manjaro Linux (KDE edition). After a few days of using Windows 10 with WSL enabled I lost my patience as soon as my OS asked me (or as I should rather say forced me to Restart my computer in the middle of me working on a project. So I decided to take my trusted USB stick and make a bootable USB with Manjaro Linux. But little did I know that the roadblocks were just starting.</p>
+<blockquote>
+<p>A computer is like air-conditioning it becomes useless as soon as you open Windows.</p>
+<blockquote>
+<p><!-- raw HTML omitted --> - Linus Torvalds<!-- raw HTML omitted --></p>
+</blockquote>
+</blockquote>
+<h3 id="oem-unlock-and-secure-boot">OEM unlock and Secure Boot</h3>
+<p>Often laptop manufacturers lock the acces to the access to the BIOS. In such cases it is very difficult to install Linux as there are many I/O changes required to be made from the BIOS and thus it is suggested that you don&rsquo;t buy a laptop from such OEMs. It is best to buy laptop from one of the major players in the laptop market i.e. Dell; Lenovo or Acer as they generally make laptops that have Linux preinstalled and thus their hardware and BIOS support user configuration and Linux installation. One can however contact the vendor/search the forums of the respective manufacturer to look for ways to unlock the BIOS.</p>
+<h5 id="disable-secure-boot">Disable Secure Boot</h5>
+<ul>
+<li>
+<p>The first major modification to make in the BIOS is to disable secure boot and change the boot mode from <code>UEFI</code> to <code>Legacy + UEFI</code>.</p>
+</li>
+<li>
+<p>It is possible that the option to change the secure boot option is greyed out in the BIOS i.e. it is inaccesible. If that is the case then it is best to set a password to access the BIOS. Enabling a password makes the option to disable secure boot accessible to the user.</p>
+</li>
+</ul>
+<h5 id="enable-ahci-for-ssd-in-windows-10">Enable AHCI for SSD in Windows 10</h5>
+<p>This option is only necessary for SSD users. By default, the disk setting in BIOS is set to the <code>RAID</code> or <code>Optane Memory + RAID</code>. In either case, modern Linux installers are unable to detect the SSD during the installation process as the Linux kernel hasn&rsquo;t received support for RAID or Optane memory yet. So we need to change the disk setting in BIOS to AHCI but this option is usually inaccesible to the consumers be default. To make it accessible we need to first enable it in Windows 10 by making some registry edits and installing latest AHCI drivers. The following are the steps -</p>
+<ol>
+<li>
+<p>While in Windows, press the <code>Win+R</code> keys to open Run, type <code>regedit</code>, and click/tap on <code>OK</code> to open Registry Editor.</p>
+</li>
+<li>
+<p>If prompted by UAC, click/tap on <code>Yes</code>.</p>
+</li>
+<li>
+<p>In the left pane of Registry Editor, browse to the key location below
+<code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iaStorV</code>.</p>
+</li>
+</ol>
+<p><img src="https://img.mywindowshub.com/images9/ahci-iastorv.jpg" alt="regedit iaStorV"></p>
+<ol start="4">
+<li>
+<p>In the right pane of the <code>iaStorV</code> key, double click/tap on the <code>Start</code> DWORD to modify it. (see screenshot above)</p>
+</li>
+<li>
+<p>Type <code>0</code> (zero) for AHCI, and click/tap on <code>OK</code>.</p>
+</li>
+<li>
+<p>In the left pane of Registry Editor, browse to the key location below.
+<code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iaStorAV\StartOverride</code></p>
+</li>
+</ol>
+<p><img src="https://miro.medium.com/max/1220/0*W52UQP6JciK7Klzc.png" alt="StartOverride regedit"></p>
+<ol start="7">
+<li>
+<p>In the right pane of the <code>StartOverride</code> key, double click/tap on the <code>0</code> DWORD to modify it.</p>
+</li>
+<li>
+<p>Type <code>0</code> (zero) for AHCI, and click/tap on <code>OK</code>.</p>
+</li>
+<li>
+<p>In the left pane of Registry Editor, browse to the key location below.
+<code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\storahci</code></p>
+</li>
+</ol>
+<p><img src="https://tunecomp.net/wp-content/uploads/2017/09/storahci-Start-0.png" alt="storahci regedit"></p>
+<ol start="10">
+<li>
+<p>In the right pane of the <code>storahci</code> key, double click/tap on the <code>Start</code> DWORD to modify it. (see screenshot above)</p>
+</li>
+<li>
+<p>Type <code>0</code> (zero) for AHCI, and click/tap on <code>OK</code>.</p>
+</li>
+<li>
+<p>In the left pane of Registry Editor, browse to the key location below to see if you have the <code>StartOverride</code> here. If you don&rsquo;t, then go to <code>step 15</code> below.</p>
+</li>
+<li>
+<p>If you do, then, in the right pane of the <code>StartOverride</code> key, double click/tap on the <code>0</code> DWORD to modify it.</p>
+</li>
+<li>
+<p>Type <code>0</code> (zero), and click/tap on <code>OK</code>.</p>
+</li>
+<li>
+<p>When finished, close Registry Editor.</p>
+</li>
+<li>
+<p>Boot the computer to your <strong>BIOS</strong> or <strong>UEFI firmware settings</strong>.</p>
+</li>
+<li>
+<p>In your BIOS or UEFI firmware settings, <strong>enable AHCI</strong>, and <strong>save &amp; exit</strong> to apply and restart the computer.</p>
+</li>
+</ol>
+<p>Note: These settings will vary per brand and model number of motherboard. Please read your motherboard manual for more specific details about how to change SATA/NVME settings for it.</p>
+<ol start="18">
+<li>
+<p>When Windows starts, it&rsquo;ll automatically install AHCI drivers.</p>
+</li>
+<li>
+<p>When finished, you&rsquo;ll need to click/tap on <strong>Restart Now</strong> to restart the computer one last time.</p>
+</li>
+</ol>
+<p>Now, we can install Linux on our machine without any issues. You can choose any distro of your choice but starting with Ubuntu or an Ubuntu based distro is always a great option as it is a stable ditro and great for beginners and experts alike and has a great community behing it. Also KDE is the best desktop environment in my opinion and thus Kubuntu in my opinion is the best distro to start with.</p>
+<p>Just get it on a bootable USB and boot into the live environment to test the input devices like keyboard, touchpad, mouse and also wifi connectivity to ensure that everything is running smoothly and voila, there you have linux running.</p>
+
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        <li>
+                        <a href="/food4thought/tags/linux">Linux</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                    
+                        <a class="d-block col-md-6 text-lg-right" href="https://adisen99.github.io/food4thought/blog/family_of_science/">Family of Science &raquo;</a>
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+<div class="container">
+    <div id="comments" class="row justify-content-center mb-5">
+        <div class="col-md-8">              
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "food-4-thought" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>               
+        </div>
+    </div>
+</div>
+
+    </div>
+
+
+            </div>
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+			<div class="d-md-flex align-items-center justify-content-center h-100">
+				<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+			</div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+			
+			<a class="mt-1 mb-1" href="/food4thought/tags/linux">linux</a>
+			
+			<a class="mt-1 mb-1" href="/food4thought/tags/physics">physics</a>
+			
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                &copy; Copyright Aditya Sengupta - All rights reserved
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" rel="noopener" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="/food4thought/js/mediumish.js"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-158627255-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </body>
+</html>

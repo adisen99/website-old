@@ -4,7 +4,7 @@ date: 2020-11-05T01:11:19+05:30
 publishdate: 2020-11-05T01:11:19+05:30
 tags: ["Linux"]
 comments: true
-draft: true
+draft: false
 ---
 {{< figure src="/food4thought/images/blog/desktop.png" alt="Linux Setup" >}}
 
