@@ -12,7 +12,7 @@ ________________________________________________________________________________
 
 ### Modifications made- 
 
-Added the linkedin social share code `share.html` in the folder `layouts/partials/single-partials/` -
+- Added the linkedin social share code `share.html` in the folder `layouts/partials/single-partials/` -
 
 ```html
 <div class="share sticky-top sticky-top-offset">
@@ -58,6 +58,16 @@ Added the linkedin social share code `share.html` in the folder `layouts/partial
     </ul>
     {{ end }}
 </div>
+```
+- Modified the `head.html` file in the `layouts/partials/_shared` directory to add the image and author metadata as follows - 
+
+```html
+{{ with .Site.Params.author.thumbnail }}
+<meta name="image" property="og:image" content="{{ . | urlize | relURL }}">
+{{ end }}
+{{ with .Site.Params.author.name }}
+<meta name="author" content="{{ . }}">
+{{ end }}
 ```
 
 ### ~Make your own website using Hugo as well !! ~
