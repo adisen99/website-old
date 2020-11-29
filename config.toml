@@ -1,58 +1,58 @@
-baseURL = "https://adisen99.github.io/food4thought/"
-languageCode = "en-us"
-title = "Food 4 Thought"
-theme = "mediumish"
-summaryLength = 25
-copyright = "Aditya Sengupta - All rights reserved"
-enableEmoji = true
-publishDir = "docs"
+baseURL         = "https://adisen99.github.io/food4thought/"
+copyright       = "Aditya Sengupta - All rights reserved"
 disqusShortname = "food-4-thought"
+enableEmoji     = true
 googleAnalytics = "UA-158627255-1"
+languageCode    = "en-us"
+publishDir      = "docs"
+summaryLength   = 25
+theme           = "mediumish"
+title           = "Food 4 Thought"
 
 [params]
-  logo = "/images/favicon_io/favicon-32x32.png"
-  description ="Physics, linux, programming, the Atmosphere and my life."
-  #mailchimp = "you can provide a mailchimp-link here"
+description = "Physics, linux, programming, the Atmosphere and my life."
+logo        = "/images/favicon_io/favicon-32x32.png"
+#mailchimp = "you can provide a mailchimp-link here"
 
-[params.author]
-  name = "Aditya Sengupta"
-  thumbnail = "/images/owl.jpg"
+  [params.author]
   description = "Creator of this blog."
+  name        = "Aditya Sengupta"
+  thumbnail   = "/images/owl.jpg"
 
-[params.index]
-  picture = "/images/owl.jpg"
-  title = "Aditya Sengupta"
-  subtitle = "A curious student studying about the Atmosphere."
-  mdtext = '''
+  [params.index]
+  alertbar = true
+  mdtext   = '''
 I love linux, programming and chess.\
 **This website contains my personal blog and some of my project descriptions and what I am studying**\
 ### Hope you find something useful on the blog.
 '''
-  alertbar = true
+  picture  = "/images/owl.jpg"
+  subtitle = "A curious student studying about the Atmosphere."
+  title    = "Aditya Sengupta"
 
-[params.social]
-  github = "adisen99"
-  gitlab = "adisen99"
-  linkedin = "aditya-sengupta-10"
+  [params.social]
+  github       = "adisen99"
+  gitlab       = "adisen99"
+  linkedin     = "aditya-sengupta-10"
   researchgate = "Aditya_Sengupta5"
   #xing = "<username>"
   #medium = "<username>"
-  twitter = "adi_sen99"
   instagram = "adi_sen99"
+  twitter   = "adi_sen99"
 
-## Main Menu
+  ## Main Menu
 [[menu.main]]
-    name = "Blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog"
+identifier = "blog"
+name       = "Blog"
+url        = "/blog"
+weight     = 100
 [[menu.main]]
-    name = "About Me"
-    identifier = "about"
-    weight = 200
-    url = "/static/about_me"
+identifier = "about"
+name       = "About Me"
+url        = "/static/about_me"
+weight     = 200
 [[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 300
-    url = "/static/imprint"
+identifier = "imprint"
+name       = "Imprint"
+url        = "/static/imprint"
+weight     = 300
