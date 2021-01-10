@@ -1,58 +1,58 @@
-baseURL         = "https://adisen99.github.io/food4thought"
-copyright       = "Aditya Sengupta - All rights reserved"
+baseURL = "https://adisen99.github.io/food4thought"
+copyright = "Aditya Sengupta - All rights reserved"
 disqusShortname = "food-4-thought"
-enableEmoji     = true
+enableEmoji = true
 googleAnalytics = "UA-158627255-1"
-languageCode    = "en-us"
-publishDir      = "docs"
-summaryLength   = 25
-theme           = "mediumish"
-title           = "Food 4 Thought"
+languageCode = "en-us"
+publishDir = "docs"
+summaryLength = 25
+theme = "mediumish"
+title = "Food 4 Thought"
 
 [params]
 description = "Physics, linux, programming, the Atmosphere and my life."
-logo        = "/images/favicon_io/favicon-32x32.png"
+logo = "/images/favicon_io/favicon-32x32.png"
 #mailchimp = "you can provide a mailchimp-link here"
 
-  [params.author]
-  description = "Creator of this blog."
-  name        = "Aditya Sengupta"
-  thumbnail   = "/images/owl.jpg"
+[params.author]
+description = "Creator of this blog."
+name = "Aditya Sengupta"
+thumbnail = "/images/owl.jpg"
 
-  [params.index]
-  alertbar = true
-  mdtext   = '''
+[params.index]
+alertbar = true
+mdtext = '''
 I love linux, programming and chess.\
 **This website contains my personal blog and some of my project descriptions and what I am studying**\
 ### Hope you find something useful on the blog.
 '''
-  picture  = "/images/owl.jpg"
-  subtitle = "A curious student studying about the Atmosphere."
-  title    = "Aditya Sengupta"
+picture = "/images/owl.jpg"
+subtitle = "A curious student studying about the Atmosphere."
+title = "Aditya Sengupta"
 
-  [params.social]
-  github       = "adisen99"
-  gitlab       = "adisen99"
-  linkedin     = "aditya-sengupta-10"
-  researchgate = "Aditya_Sengupta5"
-  #xing = "<username>"
-  #medium = "<username>"
-  instagram = "adi_sen99"
-  twitter   = "adi_sen99"
+[params.social]
+github = "adisen99"
+gitlab = "adisen99"
+linkedin = "aditya-sengupta-10"
+researchgate = "Aditya_Sengupta5"
+#xing = "<username>"
+#medium = "<username>"
+instagram = "adisen99"
+twitter = "adi_sen99"
 
-  ## Main Menu
+## Main Menu
 [[menu.main]]
 identifier = "blog"
-name       = "Blog"
-url        = "/blog"
-weight     = 100
+name = "Blog"
+url = "/blog"
+weight = 100
 [[menu.main]]
 identifier = "about"
-name       = "About Me"
-url        = "/static/about_me"
-weight     = 200
+name = "About Me"
+url = "/static/about_me"
+weight = 200
 [[menu.main]]
 identifier = "imprint"
-name       = "Imprint"
-url        = "/static/imprint"
-weight     = 300
+name = "Imprint"
+url = "/static/imprint"
+weight = 300
