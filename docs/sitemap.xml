@@ -1,73 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://adisen99.github.io/food4thought/blog/</loc>
     <lastmod>2020-11-05T01:11:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/</loc>
     <lastmod>2020-11-05T01:11:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/tags/linux/</loc>
     <lastmod>2020-11-05T01:11:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/blog/linux_setup/</loc>
     <lastmod>2020-11-05T01:11:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/tags/</loc>
     <lastmod>2020-11-05T01:11:19+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/blog/family_of_science/</loc>
     <lastmod>2019-04-12T11:14:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/tags/physics/</loc>
     <lastmod>2019-04-12T11:14:48-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/blog/great_minds/</loc>
     <lastmod>2019-04-11T11:13:32-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/blog/infinite_universe/</loc>
     <lastmod>2019-04-10T11:00:59-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/blog/chaos/</loc>
     <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/static/imprint/</loc>
     <lastmod>2018-10-07T11:12:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/static/</loc>
     <lastmod>2018-10-07T11:12:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/static/about_me/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://adisen99.github.io/food4thought/categories/</loc>
   </url>
-  
 </urlset>
