@@ -6,7 +6,7 @@ tags: ["Linux"]
 comments: true
 draft: false
 ---
-{{< figure src="/food4thought/images/blog/desktop.png" alt="Linux Setup" >}}
+{{< figure src="/images/blog/desktop.png" alt="Linux Setup" >}}
 
 ## Introduction
 

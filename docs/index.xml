@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Food 4 Thought</title>
-    <link>https://adisen99.github.io/food4thought/</link>
+    <link>https://adisen99.github.io/</link>
     <description>Recent content on Food 4 Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aditya Sengupta - All rights reserved</copyright>
-    <lastBuildDate>Thu, 05 Nov 2020 01:11:19 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2020 01:11:19 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Setup on Modern Hardware</title>
-      <link>https://adisen99.github.io/food4thought/blog/linux_setup/</link>
+      <link>https://adisen99.github.io/blog/linux_setup/</link>
       <pubDate>Thu, 05 Nov 2020 01:11:19 +0530</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/linux_setup/</guid>
+      <guid>https://adisen99.github.io/blog/linux_setup/</guid>
       <description>Introduction Linux is a more than a kernel. For me it is is a symbol of freedom and privacy as far software and specifically operating systems is concerned and also the major advantage of using Linux is that it is a UNIX based operating system and thus it follows the UNIX philosophy and in addition to why it is better than mac OS in my opinion is because of the fact that all modern Linux distributions are GNU/Linux or as it better to call it GNU+Linux distributions (distros for short).</description>
     </item>
     
     <item>
       <title>Family of Science</title>
-      <link>https://adisen99.github.io/food4thought/blog/family_of_science/</link>
+      <link>https://adisen99.github.io/blog/family_of_science/</link>
       <pubDate>Fri, 12 Apr 2019 11:14:48 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/family_of_science/</guid>
+      <guid>https://adisen99.github.io/blog/family_of_science/</guid>
       <description>The Bohr Family   Niels Bohr was a great practitioner of the Scientific method and inspired many physicists throughout his career such as Werner Heisenberg, Lev Landau, Wolfgang Pauli, Paul Dirac, just to name a few and undoubtedly continues to do so.</description>
     </item>
     
     <item>
       <title>Great Minds</title>
-      <link>https://adisen99.github.io/food4thought/blog/great_minds/</link>
+      <link>https://adisen99.github.io/blog/great_minds/</link>
       <pubDate>Thu, 11 Apr 2019 11:13:32 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/great_minds/</guid>
+      <guid>https://adisen99.github.io/blog/great_minds/</guid>
       <description>Fifth conference participants, 1927. Institut International de Physique Solvay in Leopold Park
 The great minds of the nineteenth-century meeting for the Nobel Committee meeting. This picture was taken by Benjamin Couprie at the Institute International de Physique Solvay, Leopold Park, Brussels Belgium.</description>
     </item>
     
     <item>
       <title>The Infinite Universe</title>
-      <link>https://adisen99.github.io/food4thought/blog/infinite_universe/</link>
+      <link>https://adisen99.github.io/blog/infinite_universe/</link>
       <pubDate>Wed, 10 Apr 2019 11:00:59 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/infinite_universe/</guid>
-      <description>I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed.</description>
+      <guid>https://adisen99.github.io/blog/infinite_universe/</guid>
+      <description>I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed. We are capable of reaching a full understanding of our universe and then realize that all we had to do was to look within ourselves.</description>
     </item>
     
     <item>
       <title>Chaos</title>
-      <link>https://adisen99.github.io/food4thought/blog/chaos/</link>
+      <link>https://adisen99.github.io/blog/chaos/</link>
       <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/blog/chaos/</guid>
+      <guid>https://adisen99.github.io/blog/chaos/</guid>
       <description>Lorenz Attractors   Chaos And then people say physics is not poetic and beautiful.
 At first glance, this picture looks like a work of art( well technically it is art because it’s a pictorial representation) but this is a graphical representation of a so-called Lorenz system of ordinary differential equations studied by E.</description>
     </item>
     
     <item>
       <title>Imprint</title>
-      <link>https://adisen99.github.io/food4thought/static/imprint/</link>
+      <link>https://adisen99.github.io/static/imprint/</link>
       <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/static/imprint/</guid>
+      <guid>https://adisen99.github.io/static/imprint/</guid>
       <description>Imprint Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://adisen99.github.io/food4thought/static/about_me/</link>
+      <link>https://adisen99.github.io/static/about_me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/static/about_me/</guid>
+      <guid>https://adisen99.github.io/static/about_me/</guid>
       <description>This is Food 4 Thought, the personal blog of Aditya Sengupta {adisen99}.
   I am a Physics Graduate currently pursuing a Masters program at the National Institute of Technology, Rourkela in the field of Atmospheric Science.</description>
     </item>

@@ -20,7 +20,7 @@ ___
 Front row, left to right: Irving Langmuir, Max Plank, Marie Sklodowska Curie, Hendrik Lorentz, Albert Einstein, Paul Langevin, Charles- Eugene Guye, Charles Thomson Rees Wilson, Owen Willians Richardson.
 ___
 
-![Another amazing image](/food4thought/images/blog/solvay_conference.jpg)
+![Another amazing image](/images/blog/solvay_conference.jpg)
 
 The Solvay Conference was the confluence of the most brilliant minds of the 20th Century to discuss the implications of the newly formulated concepts, ideas, and papers in the recently developed field of Quantum Mechanics. Here is a great youtube video from the channel 'FreeScienceLectures' showing the highlights from the 1927 conference. 
 

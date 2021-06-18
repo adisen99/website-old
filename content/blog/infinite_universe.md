@@ -7,6 +7,6 @@ image: "/images/blog/the_infinite_universe1.jpg"
 tags: ["Physics"]
 comments: true
 ---
-{{< figure src="/food4thought/images/blog/the_infinite_universe2.jpg" >}}
+{{< figure src="/images/blog/the_infinite_universe2.jpg" >}}
 
 >I believe that small though we are, insignificant though we may be, the human mind is capable of very very big things indeed. We are capable of reaching a full understanding of our universe and then realize that all we had to do was to look within ourselves. 

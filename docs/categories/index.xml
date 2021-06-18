@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Food 4 Thought</title>
-    <link>https://adisen99.github.io/food4thought/categories/</link>
+    <link>https://adisen99.github.io/categories/</link>
     <description>Recent content in Categories on Food 4 Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Aditya Sengupta - All rights reserved</copyright><atom:link href="https://adisen99.github.io/food4thought/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Aditya Sengupta - All rights reserved</copyright><atom:link href="https://adisen99.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

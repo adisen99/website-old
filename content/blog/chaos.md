@@ -7,7 +7,7 @@ image: "/images/blog/chaos1.jpeg"
 tags: ["Physics"]
 comments: true
 ---
-{{< figure src="/food4thought/images/blog/chaos2.jpg" title="Lorenz Attractors" >}}
+{{< figure src="/images/blog/chaos2.jpg" title="Lorenz Attractors" >}}
 
 ### **Chaos**
 

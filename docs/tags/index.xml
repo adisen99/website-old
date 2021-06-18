@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Food 4 Thought</title>
-    <link>https://adisen99.github.io/food4thought/tags/</link>
+    <link>https://adisen99.github.io/tags/</link>
     <description>Recent content in Tags on Food 4 Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aditya Sengupta - All rights reserved</copyright>
-    <lastBuildDate>Thu, 05 Nov 2020 01:11:19 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2020 01:11:19 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>https://adisen99.github.io/food4thought/tags/linux/</link>
+      <link>https://adisen99.github.io/tags/linux/</link>
       <pubDate>Thu, 05 Nov 2020 01:11:19 +0530</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/tags/linux/</guid>
+      <guid>https://adisen99.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics</title>
-      <link>https://adisen99.github.io/food4thought/tags/physics/</link>
+      <link>https://adisen99.github.io/tags/physics/</link>
       <pubDate>Fri, 12 Apr 2019 11:14:48 -0400</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/tags/physics/</guid>
+      <guid>https://adisen99.github.io/tags/physics/</guid>
       <description></description>
     </item>
     

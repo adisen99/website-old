@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statics on Food 4 Thought</title>
-    <link>https://adisen99.github.io/food4thought/static/</link>
+    <link>https://adisen99.github.io/static/</link>
     <description>Recent content in Statics on Food 4 Thought</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Aditya Sengupta - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:12:00 +0200</lastBuildDate><atom:link href="https://adisen99.github.io/food4thought/static/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Oct 2018 11:12:00 +0200</lastBuildDate><atom:link href="https://adisen99.github.io/static/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Imprint</title>
-      <link>https://adisen99.github.io/food4thought/static/imprint/</link>
+      <link>https://adisen99.github.io/static/imprint/</link>
       <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/static/imprint/</guid>
+      <guid>https://adisen99.github.io/static/imprint/</guid>
       <description>Imprint Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://adisen99.github.io/food4thought/static/about_me/</link>
+      <link>https://adisen99.github.io/static/about_me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adisen99.github.io/food4thought/static/about_me/</guid>
+      <guid>https://adisen99.github.io/static/about_me/</guid>
       <description>This is Food 4 Thought, the personal blog of Aditya Sengupta {adisen99}.
   I am a Physics Graduate currently pursuing a Masters program at the National Institute of Technology, Rourkela in the field of Atmospheric Science.</description>
     </item>
