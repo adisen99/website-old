@@ -52,7 +52,7 @@ name = "About Me"
 url = "/static/about_me"
 weight = 200
 [[menu.main]]
-identifier = "imprint"
-name = "Imprint"
-url = "/static/imprint"
+identifier = "projects"
+name = "Projects"
+url = "/static/projects"
 weight = 300
