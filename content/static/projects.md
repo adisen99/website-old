@@ -7,13 +7,11 @@ date: 2018-10-07T11:12:00+02:00
 
 Personal dotfiles and config files
 
-## Vim color schemes
-
-### [codeschool.nvim](https://github.com/adisen99/codeschool.nvim)
+## [codeschool.nvim](https://github.com/adisen99/codeschool.nvim)
 
 Codeschool color scheme for `Neovim` written in `lua` with `treesitter` and built-in `lsp` support.
 
-### [apprentice.nvim](https://github.com/adisen99/apprentice.nvim)
+## [apprentice.nvim](https://github.com/adisen99/apprentice.nvim)
 
 Apprentice color scheme for `Neovim` written in `lua` with `treesitter` and built-in `lsp` support.
 

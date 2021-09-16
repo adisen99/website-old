@@ -15,7 +15,8 @@
       
       <guid>https://adisen99.github.io/static/projects/</guid>
       <description>Personal Dotfiles Personal dotfiles and config files
-Vim color schemes codeschool.nvim Codeschool color scheme for Neovim written in lua with treesitter and built-in lsp support.</description>
+codeschool.nvim Codeschool color scheme for Neovim written in lua with treesitter and built-in lsp support.
+apprentice.nvim Apprentice color scheme for Neovim written in lua with treesitter and built-in lsp support.</description>
     </item>
     
     <item>
