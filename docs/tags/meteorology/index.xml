@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meteorology on Food 4 Thought</title>
+    <link>https://adisen99.github.io/tags/meteorology/</link>
+    <description>Recent content in Meteorology on Food 4 Thought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Aditya Sengupta - All rights reserved</copyright>
+    <lastBuildDate>Sun, 07 Nov 2021 15:31:17 +0530</lastBuildDate><atom:link href="https://adisen99.github.io/tags/meteorology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regridding `.nc` files using Python</title>
+      <link>https://adisen99.github.io/blog/regrid/</link>
+      <pubDate>Sun, 07 Nov 2021 15:31:17 +0530</pubDate>
+      
+      <guid>https://adisen99.github.io/blog/regrid/</guid>
+      <description>Here is a basic script to re-grid multiple .nc data files in python using xesmf, xarray and dask libraries and output to a new directory -</description>
+    </item>
+    
+  </channel>
+</rss>

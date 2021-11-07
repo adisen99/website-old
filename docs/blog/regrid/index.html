@@ -6,7 +6,7 @@
 	
 	<link rel="icon" href="/images/favicon_io/favicon-32x32.png">
 	
-	<title>Chaos | Food 4 Thought</title>
+	<title>Regridding `.nc` files using Python | Food 4 Thought</title>
 	
 	
 	
@@ -17,15 +17,15 @@
 	
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Chaos"/>
-<meta name="twitter:description" content="The beauty of the theory of Chaos"/>
+<meta name="twitter:title" content="Regridding `.nc` files using Python"/>
+<meta name="twitter:description" content="Here is a basic script to re-grid multiple .nc data files in python using xesmf, xarray and dask libraries and output to a new directory -"/>
 
-	<meta property="og:title" content="Chaos" />
-<meta property="og:description" content="The beauty of the theory of Chaos" />
+	<meta property="og:title" content="Regridding `.nc` files using Python" />
+<meta property="og:description" content="Here is a basic script to re-grid multiple .nc data files in python using xesmf, xarray and dask libraries and output to a new directory -" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://adisen99.github.io/blog/chaos/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2019-04-09T10:58:08-04:00" />
-<meta property="article:modified_time" content="2019-04-09T10:58:08-04:00" />
+<meta property="og:url" content="https://adisen99.github.io/blog/regrid/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-11-07T15:31:17+05:30" />
+<meta property="article:modified_time" content="2021-11-07T15:31:17+05:30" />
 
 
 
@@ -98,21 +98,21 @@
     <p>Share</p>
     <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Chaos&url=https%3a%2f%2fadisen99.github.io%2fblog%2fchaos%2f"
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Regridding%20%60.nc%60%20files%20using%20Python&url=https%3a%2f%2fadisen99.github.io%2fblog%2fregrid%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fadisen99.github.io%2fblog%2fchaos%2f"
+            <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fadisen99.github.io%2fblog%2fregrid%2f"
                 onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fadisen99.github.io%2fblog%2fchaos%2f"
+            <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fadisen99.github.io%2fblog%2fregrid%2f"
                 onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
                 <i class="fab fa-xing"></i>
             </a>
@@ -120,7 +120,7 @@
 
         <li class="ml-1 mr-1">
             <a target="_blank"
-                href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fadisen99.github.io%2fblog%2fchaos%2f&title=Chaos"
+                href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fadisen99.github.io%2fblog%2fregrid%2f&title=Regridding%20%60.nc%60%20files%20using%20Python"
                 onclick="window.open(this.href, 'linkedin-share', 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin"></i>
             </a>
@@ -154,7 +154,7 @@
                                 <span class="author-description">
                                     Creator of this blog.<br>
                                     <i class="far fa-star"></i>
-                                    Apr 9, 2019
+                                    Nov 7, 2021
                                     <i class="far fa-clock clock"></i>
                                     2 min read
                                 </span>					
@@ -164,7 +164,7 @@
                         
                                                 
                         
-                        <h1 class="posttitle">Chaos</h1> 
+                        <h1 class="posttitle">Regridding `.nc` files using Python</h1> 
                     </div>
 
                     
@@ -174,32 +174,63 @@
 
                     
                     <div class="article-post">
-                        <figure><img src="/images/blog/chaos2.jpg"/><figcaption>
-            <h4>Lorenz Attractors</h4>
-        </figcaption>
-</figure>
+                        <p>Here is a basic script to re-grid multiple <code>.nc</code> data files in python using <code>xesmf</code>, <code>xarray</code> and <code>dask</code> libraries and output to a new directory -</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Regridding using ESMF library in python (xesmf)</span>
+<span style="color:#75715e"># the new regrid script using the ESMF regridding framework</span>
 
-<h3 id="chaos"><strong>Chaos</strong></h3>
-<p>And then people say physics is not poetic and beautiful.</p>
-<p>At first glance, this picture looks like a work of art( well technically it is art because it’s a pictorial representation) but this is a graphical representation of a so-called Lorenz system of ordinary differential equations studied by E. Lorenz, the first person ever to visually see the solution of a so-called 3 -body problem as seen in this picture.</p>
-<p>And all that was from an accident as he fed very old weather graphing computer program, highly sensitive data.</p>
-<p>What he got was a mathematical model of atmospheric convection., i.e. three ordinary differential equations having chaotic solutions. Chaotic solutions of a dynamical system that is highly sensitive to initial conditions.</p>
-<p>And voilà Chaos theory was born( or rather discovered) Initial conditions, Infinitesimal Variations, Butterfly Effect.</p>
-<h3 id="its-insane-its-beautiful-its-insanely-beautiful"><strong>It&rsquo;s insane, it’s beautiful, it’s insanely beautiful.</strong></h3>
-<p>It may be chaos theory but it represents order out of chaos and the fact that it was discovered from am accident (by a person who was not even looking to discover it) makes it even more alluring.</p>
-<p>Chaotic systems exist all around us, from an ideal system of a double pendulum to the population of rabbits to the entire multiverse itself, all these dynamical systems are highly sensitive to initial conditions. All these systems are governed by difference and differential equations.</p>
-<p>The best analogy is that these changes in initial conditions are like Domino strikes, one strike and the whole system topples down, but still, there is an order to the toppling, because the universe always finds its way. Then again this is just that an analogy.</p>
-<p><em>To quote one of my favorite physicists Richard Feynman,</em></p>
-<blockquote>
-<p>&ldquo;Nature uses only the longest threads to weave her patterns so that each small piece of her fabric reveals the organization of the entire tapestry.&rdquo;</p>
-</blockquote>
-<p>P.S. - To understand more about the power of difference equations and how they are used to model dynamical systems and as to how chaos arises, please check out the following &lsquo;Veritasium&rsquo; video.
-Credit- Veritasium</p>
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+<span style="color:#f92672">import</span> xarray <span style="color:#66d9ef">as</span> xr
+<span style="color:#f92672">import</span> dask.array <span style="color:#66d9ef">as</span> da
+<span style="color:#f92672">import</span> xesmf <span style="color:#66d9ef">as</span> xe
+<span style="color:#f92672">import</span> time
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">from</span> dask.distributed <span style="color:#f92672">import</span> Client
+<span style="color:#f92672">from</span> dask.diagnostics <span style="color:#f92672">import</span> ProgressBar
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ovJcsL7vyrk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<span style="color:#75715e"># Main function</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+    <span style="color:#66d9ef">with</span> os<span style="color:#f92672">.</span>scandir(<span style="color:#e6db74">&#39;../data/GPM_data/&#39;</span>) <span style="color:#66d9ef">as</span> it: <span style="color:#75715e"># enter the directory containing input .nc files</span>
+        <span style="color:#66d9ef">for</span> entry <span style="color:#f92672">in</span> it:
+            <span style="color:#66d9ef">if</span> entry<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>endswith(<span style="color:#e6db74">&#39;.nc&#39;</span>) <span style="color:#f92672">and</span> entry<span style="color:#f92672">.</span>is_file() <span style="color:#f92672">and</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(<span style="color:#e6db74">&#39;../data/GPM_lowres_data/&#39;</span> <span style="color:#f92672">+</span> entry<span style="color:#f92672">.</span>name):
+                print(<span style="color:#e6db74">&#34;Starting the Regridding of - &#34;</span> <span style="color:#f92672">+</span> entry<span style="color:#f92672">.</span>name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; ...&#34;</span>)
 
+                <span style="color:#75715e"># loading the data</span>
+                ds <span style="color:#f92672">=</span> xr<span style="color:#f92672">.</span>open_dataset(entry<span style="color:#f92672">.</span>path, chunks<span style="color:#f92672">=</span>dict(time<span style="color:#f92672">=</span><span style="color:#ae81ff">2000</span>))
+                ds<span style="color:#f92672">.</span>unify_chunks()
+                ds <span style="color:#f92672">=</span> ds<span style="color:#f92672">.</span>drop_dims(<span style="color:#e6db74">&#39;bnds&#39;</span>)
+                ds <span style="color:#f92672">=</span> ds<span style="color:#f92672">.</span>transpose(<span style="color:#e6db74">&#39;time&#39;</span>, <span style="color:#e6db74">&#39;lat&#39;</span>, <span style="color:#e6db74">&#39;lon&#39;</span>)
+
+                print(<span style="color:#e6db74">&#34;Data is imported successfully ...&#34;</span>)
+
+                <span style="color:#75715e"># prepare the regridding</span>
+                ds_out <span style="color:#f92672">=</span> xr<span style="color:#f92672">.</span>Dataset({<span style="color:#e6db74">&#39;lat&#39;</span>: ([<span style="color:#e6db74">&#39;lat&#39;</span>], np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">40.25</span>, <span style="color:#ae81ff">0.25</span>)),
+                    <span style="color:#e6db74">&#39;lon&#39;</span>: ([<span style="color:#e6db74">&#39;lon&#39;</span>], np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">60</span>, <span style="color:#ae81ff">100.25</span>, <span style="color:#ae81ff">0.25</span>)),
+                    }
+                )
+                regridder <span style="color:#f92672">=</span> xe<span style="color:#f92672">.</span>Regridder(ds, ds_out, <span style="color:#e6db74">&#39;bilinear&#39;</span>)
+
+                print(<span style="color:#e6db74">&#34;Data has been successfully prepared for regridding ...&#34;</span>)
+
+                <span style="color:#75715e"># Do the regridding</span>
+                dr_out <span style="color:#f92672">=</span> regridder(ds<span style="color:#f92672">.</span>precipitationCal)
+
+                print(<span style="color:#e6db74">&#34;The data has been regridded, now exporting ...&#34;</span>)
+
+                <span style="color:#75715e"># Ooutput the data</span>
+                dr_out <span style="color:#f92672">=</span> dr_out<span style="color:#f92672">.</span>to_dataset(name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;precipCal&#39;</span>)
+                delayedObj <span style="color:#f92672">=</span> dr_out<span style="color:#f92672">.</span>to_netcdf(<span style="color:#e6db74">&#39;../data/GPM_lowres_data/&#39;</span> <span style="color:#f92672">+</span> entry<span style="color:#f92672">.</span>name, compute<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>) <span style="color:#75715e"># enter the directory to output the regridded .nc files</span>
+
+                <span style="color:#66d9ef">with</span> ProgressBar():
+                    results <span style="color:#f92672">=</span> delayedObj<span style="color:#f92672">.</span>compute()
+
+                print(results)
+                print(<span style="color:#e6db74">&#34;Finished Regridding and data exported &#34;</span> <span style="color:#f92672">+</span> entry<span style="color:#f92672">.</span>name)
+                time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">7</span>)
+
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+    main()
+    print(<span style="color:#e6db74">&#34;Finished the Regridding process&#34;</span>)
+</code></pre></div><p>Just run the script with the correct names of input and output directories for your data and you&rsquo;re good to go. Thank me later. ;)</p>
 
                     </div>
                     
@@ -208,7 +239,11 @@ Credit- Veritasium</p>
                         <ul class="tags">
                         
                         <li>
-                        <a href="/tags/physics">Physics</a>
+                        <a href="/tags/python">Python</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/tags/meteorology">Meteorology</a>
                         </li>
                         
                         </ul>
@@ -218,8 +253,8 @@ Credit- Veritasium</p>
                     
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     
-                        <a class="d-block col-md-6" href="https://adisen99.github.io/blog/infinite_universe/"> &laquo; The Infinite Universe</a>
                     
+                        <a class="d-block col-md-6 text-lg-right" href="https://adisen99.github.io/blog/linux_setup/">Linux Setup on Modern Hardware &raquo;</a>
                     
                     <div class="clearfix"></div>
                     </div>
